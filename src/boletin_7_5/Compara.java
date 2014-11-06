@@ -32,6 +32,18 @@ public class Compara {
             JOptionPane.showMessageDialog(null, "El numero mayor es el 3ª numero: " + c);
             p=1;
         }
+        if ((a==b)&&(a>c)){
+            JOptionPane.showMessageDialog(null, "Los numeros mayores son: " + a + " y " + b);
+            p=1; 
+        }
+        if ((a==c)&&(a>b)){
+            JOptionPane.showMessageDialog(null, "Los numeros mayores son: " + a + " y " + c);
+            p=1;
+        }
+        if ((b==c)&&(c>a)){
+            JOptionPane.showMessageDialog(null, "Los numeros mayores son: " + b + " y " + c);
+            p=1;
+        } 
         if (p == 0){
             JOptionPane.showMessageDialog(null, "los tres numeros son iguales");
         }        
